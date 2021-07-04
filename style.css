@@ -30,3 +30,15 @@ section{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
 }
+.facebook{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+.second-background{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
