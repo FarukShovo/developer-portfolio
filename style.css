@@ -3,6 +3,10 @@ h1{
     font-size: 40px;
     
 }
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
 h3{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -10,7 +14,7 @@ h3{
 span{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -41,4 +45,11 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.flexible-container{
+    display: flex;
+    width: 100%;
+}
+.experience{
+    
 }
