@@ -5,7 +5,7 @@ h1{
 }
 h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
 }
 h3{
     font-family: 'Poppins', sans-serif;
@@ -53,3 +53,36 @@ span{
 .orange{
     color: orange;
 }
+.Experiences-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    padding: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5%;
+    background-image: ;
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#olo{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#lol{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: rgb(252, 0, 0);
+    text-decoration: lightseagreen;
+    text-shadow: magenta;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
