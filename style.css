@@ -1,63 +1,79 @@
-body{
-    margin: 0;
+body {
+    margin: 20px;
+    padding: 20px;
+
 }
-h1{
+
+h1 {
 
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    
-  }
-h2{
+
+}
+
+h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
 }
-h3{
+
+h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
-span{
+
+span {
     color: orange;
 }
-.flexible-container{
+
+.flexible-container {
     display: flex;
 }
-.half-width{
+
+.half-width {
     width: 50%;
 }
-.half-width img{
+
+.half-width img {
     width: 80%;
 }
-.anchor-button{
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 30px;
-    border-radius: 5px;
-    
-}
-.first-background{
-    background-image: url(top-banner.png);
-    background-repeat: no-repeat;
-}
-.facebook{
+
+.anchor-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 30px;
     border-radius: 5px;
 
 }
-.second-background{
+
+.first-background {
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+
+.second-background {
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-.flexible-container{
+
+.flexible-container {
     display: flex;
     width: 100%;
 }
-.orange{
+
+.orange {
     color: orange;
 }
-.Experiences-item{
+
+.Experiences-item {
     width: 40%;
     box-shadow: 10px 10px 40px grey;
     padding: 50px;
@@ -66,22 +82,26 @@ span{
     border-radius: 5%;
     background-image: ;
 }
-.experience{
+
+.experience {
     background-image: url(exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
-#olo{
+
+#olo {
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
-#lol{
+
+#lol {
     border-left: 7px solid;
     border-image: linear-gradient(orange, tomato);
     border-image-slice: 1;
 }
-footer{
+
+footer {
     text-align: center;
     color: rgb(252, 0, 0);
     text-decoration: lightseagreen;
@@ -89,4 +109,3 @@ footer{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
-
